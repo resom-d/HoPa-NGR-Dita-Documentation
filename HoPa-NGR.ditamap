@@ -10,7 +10,7 @@
     <chapter navtitle="Software" xml:lang="de-DE">
         <topicref href="Topics/Software/Betriebssystem%20und%20Konfiguration.dita" xml:lang="de-DE"/>
         <topicref href="Topics/Software/Testanwendung.dita"/>
-        <topicref href="programmiersprache.dita">
+        <topicref href="Topics/Software/programmiersprache.dita">
             <topicref href="Topics/Software/c_.dita"/>
         </topicref>
         <topicref href="Topics/Software/struktur.dita">
