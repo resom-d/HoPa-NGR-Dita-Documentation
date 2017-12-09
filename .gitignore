@@ -1,3 +1,10 @@
-Media/
+# -gitignore von zehnfinger 12/2017
+
+# Diese Ordner ignorieren
+
 out/
 temp/
+
+# Diese Dateitypen ignoriern
+
+# Diese speziellen Dateien ignorieren
