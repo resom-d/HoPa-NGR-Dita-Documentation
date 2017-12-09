@@ -5,4 +5,7 @@
   <body>
     <p></p>
   </body>
+  <related-links>
+    <link href="programmiersprache.dita"/>
+  </related-links>
 </topic>

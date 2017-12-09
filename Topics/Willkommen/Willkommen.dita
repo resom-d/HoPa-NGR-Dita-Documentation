@@ -3,7 +3,7 @@
 <topic id="topic_ach_dwk_bcb" xml:lang="de-DE">
   <title>HoPa - Next Generation Robot</title>
   <prolog>
-    <author conref="../../Reuse/Autoren.xml#ReusableComponent_wbb_bbn_bcb/author_ybb_bbn_bcb"/>
+    <author conref="../../Reuse/Autoren.xml#ReusableComponent_ngs_jr5_bcb/author-zf"/>
     <critdates>
       <created date="2017-12-02"/>
     </critdates>
@@ -21,10 +21,12 @@
       Hochleistungs-elektronik immer preiswerter zu haben ist, lohnt sich der Einstieg in die
       Robotik auch für Hobbyisten und Freizeitbastler. Auch die große Zahl an für den Modelbau
       erhältlichen Komponenten ist dank des Internet in unüberschaubarer Zahl erhältlich. Die Welt
-      ist tatsächlich ein Dorf geworden. Mobile Roboter treten in den verschiedenstens Formen auf.
-      Ob humanoide oder in Form von Fahrzeugen in allen erdenklichen Formen und Formaten. Wir wollen
-      uns konkret mit dem Bereich führerlose (Transport) Fahrzeuge beschäftigen. Die Anwendung soll
-      vom Transport über Rangieren und Manipulieren möglichst großflächig angelegt sein.</p>
+      ist tatsächlich kleiner geworden, Dinge nach denen man Monate suchen musste sind nun binnen
+      Minuten gefunden und meist innerhalb weniger Tage geliefert. Mobile Roboter treten in den
+      verschiedenstens Formen auf. Ob humanoide oder in Form von Fahrzeugen in allen erdenklichen
+      Formen und Formaten. Wir wollen uns konkret mit dem Bereich führerlose (Transport) Fahrzeuge
+      beschäftigen. Die Anwendung soll vom Transport über Rangieren und Manipulieren möglichst
+      großflächig angelegt sein.</p>
     <p>Also - was haben denn nun konkret vor?</p>
     <p>Paul und ich kennen uns seit etwa 30Jahren, zuerst in der Berufsschule, später als wir dabei
       waren die Technikerausbildung zu machen und mittlerweile als gute Freunde und gemeinsam

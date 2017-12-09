@@ -18,6 +18,9 @@
         </options>
     </meta>
     <projectTree name="HoPa-NGR.xpr">
+        <folder masterFiles="true" name="Master Files">
+            <file name="Masterdocuments/MyMastertopic.dita"/>
+        </folder>
         <folder path="."/>
     </projectTree>
 </project>

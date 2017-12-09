@@ -5,13 +5,17 @@
         <mainbooktitle>HoPa - NGR</mainbooktitle>
     </booktitle>
     <chapter navtitle="Willkommen" xml:lang="de-DE">
-        <topicref href="Topics/Welcome/Willkommen.dita" xml:lang="de-DE"/>
+        <topicref href="Topics/Willkommen/Willkommen.dita" xml:lang="de-DE"/>
+    </chapter>
+    <chapter href="Topics/Hardware/Hardware.dita" navtitle="Hardware">
+        <topicref href="Topics/Hardware/Raspberry%20PI%203.dita"/>
+        <topicref href="Topics/Hardware/rplidar_a2.dita"/>
     </chapter>
     <chapter navtitle="Software" xml:lang="de-DE">
         <topicref href="Topics/Software/Betriebssystem%20und%20Konfiguration.dita" xml:lang="de-DE"/>
         <topicref href="Topics/Software/Testanwendung.dita"/>
         <topicref href="Topics/Software/programmiersprache.dita">
-            <topicref href="Topics/Software/c_.dita"/>
+            <topicref href="Topics/Software/c_sharp.dita"/>
         </topicref>
         <topicref href="Topics/Software/struktur.dita">
             <topicref href="Topics/Software/datenstruktur.dita"/>
@@ -19,11 +23,7 @@
         <topicref href="Topics/Software/rplidar_a2.dita" xml:lang="de-DE"/>
     </chapter>
     <chapter navtitle="Überlegungen" processing-role="normal" xml:lang="de-DE">
-        <topicref href="Topics/Thoughts/Datenerfassung_und_Weltbild.dita" xml:lang="de-DE"/>
-        <topicref href="Topics/Thoughts/Elektrobasteleien.dita"/>
-    </chapter>
-    <chapter href="Topics/Hardware/Hardware.dita" navtitle="Hardware">
-        <topicref href="Topics/Hardware/Raspberry%20PI%203.dita"/>
-        <topicref href="Topics/Hardware/rplidar_a2.dita"/>
+        <topicref href="Topics/Gedanken/Elektrobasteleien.dita" xml:lang="de-DE"/>
+        <topicref href="Topics/Gedanken/Elektrobasteleien.dita"/>
     </chapter>
 </bookmap>

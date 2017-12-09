@@ -4,7 +4,7 @@
   <title xml:lang="de-DE"><tm tmtype="-dita-use-conref-target"
       conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-raspi"/></title>
   <prolog>
-    <author conref="../../Reuse/Autoren.xml#ReusableComponent_wbb_bbn_bcb/author_ybb_bbn_bcb"/>
+    <author conref="../../Reuse/Autoren.xml#ReusableComponent_ngs_jr5_bcb/author-zf"/>
     <critdates>
       <created date="2017-12-02"/>
     </critdates>
