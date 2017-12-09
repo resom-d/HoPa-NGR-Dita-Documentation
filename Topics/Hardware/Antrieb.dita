@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_ywm_ydl_dcb">
+  <title>Antrieb</title>
+  <prolog>
+    <author conref="../../Reuse/Autoren.xml#ReusableComponent_wbb_bbn_bcb/author_ybb_bbn_bcb"/>
+  </prolog>
+  <body>
+    <p>Der Antrieb ist die Grundlage jedweder Anwendung mobiler Roboter. Paul hat die Räder, die
+      Motoren mit Encoder und die <xref
+        href="../../Media/PDF/antrieb/md22%20i2c%20motor%20driver.pdf" format="pdf"
+        >Motorendstufen</xref> besorgt. Der Antrieb wird wegen der Art der Räder <xref
+        href="../../Media/PDF/antrieb/Diegel-Badve-Bright-Potgieter-Tlale.pdf" format="pdf">Mecanum
+        Drive</xref> genannt. <fig id="fig_pjd_vkl_dcb">
+        <title>Mecanum Drive Wheel</title>
+        <image href="../../Media/Bitmaps/Hardware/HoPaMk2Full-0005.jpg" id="image_dnf_cll_dcb">
+          <alt>Mecanum Drive Wheel</alt>
+        </image>
+      </fig></p>
+  </body>
+  <related-links>
+    <link href="../../Media/PDF/antrieb/md22%20i2c%20motor%20driver.pdf" format="pdf">
+      <linktext>MD22 Motorenendstufe technische Beschreibung</linktext>
+    </link>
+    <link href="https://en.wikipedia.org/wiki/Mecanum_wheel" format="html" scope="external">
+      <linktext>Mecanum Drive in der englischen Wikipedia</linktext>
+    </link>
+  </related-links>
+</topic>

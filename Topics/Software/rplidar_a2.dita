@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_as2_mpn_bcb" xml:lang="de-DE">
+  <title><tm tmtype="-dita-use-conref-target"
+            conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-rplidar_a2"
+        /></title>
+  <body>
+    <p>Hier geht’s zu den offiziellen Dokumenten von <tm tmtype="tm" id="brands-slamtec"
+                                >Slamtec</tm><ul id="ul_tm4_n15_bcb">
+                                <li><xref
+                                                href="../../Media/PDF/rplidar/LD204_SLAMTEC_rplidar_datasheet_A2M4_v1.0_en.pdf"
+                                                format="pdf">Datasheet</xref></li>
+                                <li><xref
+                                                href="../../Media/PDF/rplidar/LM204_SLAMTEC_rplidarkit_usermanual_A2M4_v1.1_en.pdf"
+                                                format="pdf">User Manual</xref></li>
+                                <li><xref
+                                                href="../../Media/PDF/rplidar/LR002_SLAMTEC_rplidar_sdk_v1.0_en.pdf"
+                                                format="pdf">SDK</xref></li>
+                                <li><xref
+                                                href="../../Media/PDF/rplidar/LR002_SLAMTEC_rplidar_sdk_v1.0_en.pdf"
+                                                format="pdf">Protokoll</xref></li>
+                        </ul></p>
+  </body>
+</topic>

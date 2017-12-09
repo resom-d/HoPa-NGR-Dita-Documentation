@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_npm_rkl_bcb" xml:lang="de-DE">
+  <title xml:lang="de-DE"><tm tmtype="-dita-use-conref-target"
+      conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-raspi"/></title>
+  <prolog>
+    <author conref="../../Reuse/Autoren.xml#ReusableComponent_wbb_bbn_bcb/author_ybb_bbn_bcb"/>
+    <critdates>
+      <created date="2017-12-02"/>
+    </critdates>
+  </prolog>
+  <body>
+    <fig id="fig_chv_nb4_bcb">
+      <title>Raspberry Logo</title>
+      <image href="../../Media/Bitmaps/Originals/810px-Raspberry_Pi_Logo.svg.png"
+        id="image_dhv_nb4_bcb" width="200">
+        <alt>Raspberry Logo</alt>
+      </image>
+    </fig>
+    <p>Gibt es überhaupt Menschen die keine Himbeeren mögen? Schwer vorzustellen und gerade unter
+      den Jüngeren beliebt, ist die Zielgruppe für den kleinen Kraftprotz klar abgesteckt. Sollte
+      man meinen, aber auch Bastler in eher reiferem Alter beschäftigen sich gerne damit.</p>
+    <p>Wir haben uns für die aktuelle Version 3 entschieden. Als Betriebssystem setzen wir auf <tm
+        tmtype="tm">Microsoft Windows 10 IOT</tm></p>
+    <p>So sieht die Platine des <tm tmtype="-dita-use-conref-target"
+        conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-raspi"/> von oben
+      aus</p>
+    <imagemap id="imagemap_wkj_mml_bcb">
+      <image href="../../Media/Bitmaps/Hardware/RASPBERRY_PI_B_PLUS.png" height="500"
+        id="image_xmz_jml_bcb" xml:lang="de-DE" placement="break" translate="yes" status="new"/>
+      <area>
+        <shape>circle</shape>
+        <coords>256, 223, 51</coords>
+        <xref href="#topic_npm_rkl_bcb/image_xmz_jml_bcb" format="dita">ARM Prozessor</xref>
+      </area>
+      <area>
+        <shape>circle</shape>
+        <coords>669, 406, 72</coords>
+        <xref href="Raspberry%20PI%203.dita">Ethernt-Schnittstelle</xref>
+      </area>
+      <area>
+        <shape>circle</shape>
+        <coords>688, 247, 69</coords>
+        <xref href="Raspberry%20PI%203.dita">2x USB 2.0</xref>
+      </area>
+      <area>
+        <shape>circle</shape>
+        <coords>685, 83, 74</coords>
+        <xref href="Raspberry%20PI%203.dita">2x USB 2.0</xref>
+      </area>
+      <area>
+        <shape>rect</shape>
+        <coords>55, 3, 512, 68</coords>
+        <xref href="Raspberry%20PI%203.dita">Ein- und Ausgabe Schnittstelle</xref>
+      </area>
+      <area>
+        <shape>circle</shape>
+        <coords>276, 444, 55</coords>
+        <xref href="Raspberry%20PI%203.dita">HDMI-Ausgang</xref>
+      </area>
+      <area>
+        <shape>circle</shape>
+        <coords>384, 376, 54</coords>
+        <xref href="Raspberry%20PI%203.dita">SPI-Schnittstelle für Pi-Camera</xref>
+      </area>
+      <area>
+        <shape>circle</shape>
+        <coords>463, 477, 35</coords>
+        <xref href="Raspberry%20PI%203.dita">Externe Spannungsversorgung</xref>
+      </area>
+      <area>
+        <shape>circle</shape>
+        <coords>37, 253, 80</coords>
+        <xref href="Raspberry%20PI%203.dita">Display Port</xref>
+      </area>
+      <area>
+        <shape>circle</shape>
+        <coords>89, 468, 35</coords>
+        <xref href="Raspberry%20PI%203.dita">Micro-USB, 5V Eingangsspannung</xref>
+      </area>
+    </imagemap>
+    <p>So haben wir uns die Pinbelegung vorgestellt (Änderungen vorbehalten).</p>
+    <table dir="ltr" id="table_sdp_pkn_bcb" xml:lang="de-DE" frame="all">
+      <tgroup cols="5" align="left">
+        <colspec colnum="1" colname="col1" align="left" colsep="1" rowsep="1"/>
+        <colspec colnum="2" colname="col2" align="left" colsep="1" rowsep="1"/>
+        <colspec colnum="3" colname="col3" align="left" colsep="1" rowsep="1"/>
+        <colspec colnum="4" colname="col4" align="left" colsep="1" rowsep="1"/>
+        <colspec colnum="5" colname="col5" align="left" colsep="1" rowsep="1"/>
+        <tbody>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">Pin Nr.</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">GPIO</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">Was?</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">Inputs</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">Outputs</entry>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">1</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">3V3</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">Spannung 3,3V</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">2</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">I2C</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">I2C SDA</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">3</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">I2C</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">I2C SCL</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">4</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">4</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">Encoder-1-A</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">5</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">17</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">Encoder-1-B</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">6</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">27</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">Encoder-2-A</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">7</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">22</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">Encoder-2-B</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">8</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">21</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">Encoder-3-A</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">9</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">5</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">Encoder-3-B</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">10</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">6</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">Encoder-4-A</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">11</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">3</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">Encoder-4-B</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">12</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">13</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">14</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">15</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">16</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">17</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">18</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">19</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1">x</entry>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">20</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">21</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+          </row>
+          <row valign="middle">
+            <entry align="left" valign="middle" colsep="1" rowsep="1">22</entry>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+            <entry align="left" valign="middle" colsep="1" rowsep="1"/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </body>
+</topic>

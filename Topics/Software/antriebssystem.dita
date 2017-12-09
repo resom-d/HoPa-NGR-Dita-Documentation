@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_v1b_1qs_bcb">
+  <title>Antriebssystem Omnidrive</title>
+  <prolog>
+    <author conref="../../Reuse/Zehnfinger.xml#ReusableComponent_wbb_bbn_bcb/author_ybb_bbn_bcb"/>
+    <critdates>
+      <created date="2017-12-03"/>
+    </critdates>
+  </prolog>
+  <body>
+    <p>Vorbild für das Antrienssystem ist ganz klar Omnidrive von <tm
+        tmtype="-dita-use-conref-target"
+        conref="../../Reuse/Kuka.xml#ReusableComponent_qc3_hqs_bcb/tm_uc3_hqs_bcb"/>. Um das Thema
+      wird sich Paul kümmern, das wird wohl flott vorangehen.</p>
+    <fig id="fig_o3k_b1t_bcb">
+      <title>Kuka Omnidrive V</title>
+      <image href="../../Media/Bitmaps/Originals/KulaOmnidriveVehicle_001.PNG"
+        id="image_dtf_wys_bcb" scalefit="yes"/>
+    </fig>
+    <fig id="fig_ctf_wys_bcb">
+      <title>Kuka Omnidrive Schema</title>
+      <image href="../../Media/Bitmaps/Originals/KukaOmnidriveSchema.PNG" id="image_xgy_1rs_bcb"
+        longdescref="Kuka Omnidrive Schema" scalefit="yes" alt="Kuka Omnidrive Schema"/>
+    </fig>
+  </body>
+</topic>

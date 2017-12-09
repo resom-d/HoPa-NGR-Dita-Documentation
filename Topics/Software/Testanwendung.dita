@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_nwk_fnt_bcb">
+  <title>Anwendung mit UI für Einrichtungszwecke</title>
+  <body>
+    <p>
+      <fig id="fig_fgs_hnt_bcb">
+        <title>Main UI Task</title>
+        <image placement="break" href="../../Media/Bitmaps/Konzepte/Main%20UI%20Task.png"
+          align="left" id="image_ggs_hnt_bcb" scalefit="yes">
+          <alt>Main UI Task</alt>
+        </image>
+      </fig>
+    </p>
+  </body>
+</topic>

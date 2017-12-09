@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_pnn_dym_bcb">
+  <title>Datenerfassung und Weltbild</title>
+  <prolog>
+    <author>Zehnfinger</author>
+    <critdates>
+      <created date="2017-12-02"/>
+    </critdates>
+  </prolog>
+  <body>
+    <p>Zur Erfassung der Umgebung steht uns eine 2D-Laserscanner vom Typ RPLIDAR A2 zur
+      Verfügung.<lines>Der Sensor ist stationär montiert, was bedeutet das der Bereich oberhalb und unterhalb des Nieveaus des Laserstrahls bleibt unerfasst.</lines>Für
+      das Anfangsstadium des Projektes werden wir eine entsprechende Umgebung vorraussetzen, die es
+      der Programmlogik erlaubt verlässlich zu reagieren.</p>
+    <p>Eventuell kommt noch eine Kamera ins Projekt und eine Auswertung via OpenVision ist durchaus
+      interressant und liegt auch im Bereich des Möglichen.</p>
+  </body>
+</topic>

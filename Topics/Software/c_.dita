@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<topic id="task_sj1_dxt_bcb">
+    <title>C#</title>
+    <shortdesc/>
+    <prolog>
+        <author conref="../../Reuse/Autoren.xml#ReusableComponent_wbb_bbn_bcb/author_ybb_bbn_bcb"/>
+    </prolog>
+    <body>
+        <p>C# ist in dem ECMA Standard <xref
+                href="http://www.ecma-international.org/publications/standards/Ecma-334.htm"
+                format="html" scope="external">ECMA-334</xref> definiert. Die Mircrosoft-Variante
+            davon heißt Visaul-C#. </p>
+    </body>
+    <related-links>
+        <linklist>
+            <link href="https://docs.microsoft.com/de-de/dotnet/csharp/programming-guide/"
+                format="html" scope="external"/>
+            <link href="https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.7.1"
+                format="html" scope="external"/>
+        </linklist>
+    </related-links>
+</topic>

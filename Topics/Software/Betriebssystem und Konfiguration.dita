@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_fs5_vpn_bcb" xml:lang="de-DE">
+  <title>Betriebssystem und Konfiguration</title>
+  <prolog>
+    <author conref="../../Reuse/Autoren.xml#ReusableComponent_wbb_bbn_bcb/author_ybb_bbn_bcb"
+      >cre</author>
+    <critdates>
+      <created date="2017-12-02"/>
+    </critdates>
+    <metadata>
+      <audience type="Public" xml:lang="de-DE" audience="novice"/>
+    </metadata>
+  </prolog>
+  <body>
+    <p>Als Betriebssystem unserer Wahl setzen wir auf <b><tm tmtype="-dita-use-conref-target"
+          conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-winiot"/></b> .</p>
+    <p><tm tmtype="-dita-use-conref-target"
+        conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-msoft"/> stellt <tm
+        tmtype="-dita-use-conref-target"
+        conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-winiot"/> genauso wie
+        <tm tmtype="-dita-use-conref-target"
+        conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-vscom"/> der Gemeinde
+      kostenlos zur Verfügung.</p>
+    <image href="../../Media/Bitmaps/Originals/WindowsIoT%20startpage.PNG" id="image_ryc_z5s_bcb"
+      scalefit="yes"/>
+    <p>Die Einrichtung des Pi verläuft problemfrei und schon nach wenigen Minuten ist das
+      Betriebssystem installiert. Alles was man dazu benötigt ist ein <tm
+        tmtype="-dita-use-conref-target"
+        conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-raspi"/>, eine
+      mindestens 8Gbyte große, möglichst flinke SD-Karte und das <xref
+        href="https://developer.microsoft.com/de-de/windows/iot/Downloads" format="html"
+        scope="external">IoT-Dashboard</xref>. Das Dashboard wird regelmäßig upgedated, lädt immer
+      die aktuellste Version von <tm tmtype="-dita-use-conref-target"
+        conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-winiot"/> nach und
+      übernimmt auch gleich das flashen der SD-Karte.</p>
+    <p><tm tmtype="-dita-use-conref-target"
+        conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-vscom"/> kann man <xref
+        href="https://www.visualstudio.com/de/vs/community/?rr=https%3A%2F%2Fwww.bing.com%2F"
+        format="html" scope="external">hier</xref> herunterladen. Wir arbeiten ausschließlich mit
+      C#, auch wenn das im Bezug auf die Arbeit mit der Hardware sicher nicht die schnellste
+      Alternative darstellt. Schaut man sich die Leistungstabelle bei den Lightining-Providern an,
+      ist C++ klar im Vorteil. Trotzdem, Einfachheit der Sprache überzeugt, die Integration in die
+      .Net Landschaft ist schlicht grandios und die Managed Runtime funktionieren einfach fabelhaft.
+      Zudem lässt <tm tmtype="-dita-use-conref-target"
+        conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-vscom"/> beim Bearbeiten
+      der Projekte keine Wünsche unberücksichtigt, man fragt sich manchmal was die Entwickler da
+      noch alles reinpacken wollen. Man darf gespannt sein.</p>
+    <p>Als erprobte Entwickler mit der WPF für den Desktop fällt uns die Arbeit mit der Windows
+      Universal Platform leicht, sind doch die eingesetzen Framworks und Tools in etwa die gleichen.
+      Das Layout und die Bindung an die Daten des Models übernimmt XAML, IO, Streaming und
+      dergleichen sind die vom Desktop gewohnten.</p>
+  </body>
+</topic>

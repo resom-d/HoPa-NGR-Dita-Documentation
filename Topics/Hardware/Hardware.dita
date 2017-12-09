@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_f5g_v2l_bcb">
+  <title>Hardware</title>
+  <prolog>
+    <author conref="../../Reuse/Autoren.xml#ReusableComponent_wbb_bbn_bcb/author_ybb_bbn_bcb"/>
+    <critdates>
+      <created date="2017-12-02"/>
+    </critdates>
+  </prolog>
+  <body>
+    <p><image id="image_qvj_k1l_bcb"/></p>
+    <p>Aller Anfang ist schwer und wenn man nicht genau weiß wo man die geeigneten Bauteile für sein
+      Projekt finden kann und nicht das benötigte Werkzeug hat um Präzisionsteile selbst
+      herzustellen, dauert es manchmal etwas bis das Fundament steht und alle Teile miteinander
+      verbunden sind. In unsererm Fall ist es mal wieder der Antrieb den wir, aus schlechter
+      Erfahrung, diesesmal richtig angehen wollen. Aber letzten Endes haben wir nun alles ausfindig
+      gemacht und es kann bald losgehen. Diese Komponenten kommen zum Einsatz:</p>
+    <ul id="ul_x2w_vgl_bcb">
+      <li>Chassis mit Befestigungsmöglichkeit für 4 Motoren</li>
+      <li>4x Gleichstrommotoren mit Getriebe, 12V, 10000RPM, I=0.17</li>
+      <li><xref href="Raspberry%20PI%203.dita#topic_npm_rkl_bcb"><tm
+            tmtype="-dita-use-conref-target"
+            conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-raspi"/></xref></li>
+      <li>Windows 10 IOT</li>
+      <li><tm tmtype="tm">RPLIDAR A2</tm></li>
+      <li>Energieversorgung (noch nicht ganz klar, wahrscheinlich eine Powerbank für den <tm
+          tmtype="tm">Raspberry-PI</tm></li>
+      <li>Kamera</li>
+      <li>Sonstige Sensoren</li>
+    </ul>
+    <p>Das Chassis war schnell gefunden und Paul hat auch gleich noch ein paar Motoren besorgt, die
+      leider keine integrierten Encoder haben, aber selbst ist der Mann nunmal. Somit werden wir die
+      Hardware für die Drehzahl- und Lageerfassung außerhalb der Motoren anbringen müssen. Und so
+      sieht das Chassis mit montierten Motoren aus:</p>
+    <image href="../../Media/Bitmaps/Hardware/HoPaMk2Full-0003.jpg" id="image_dss_5c4_bcb"
+      scalefit="yes"/>
+    <p>Bei den Rädern fehlen uns noch ein paar Kleinigkeiten um sie an den Motoren befestigen zu
+      können. So sehen die Räder für den Omnidrive aus</p>
+    <fig id="fig_ofx_nyn_bcb">
+      <title>Omnidrive Rad</title>
+      <image href="../../Media/Bitmaps/Hardware/HoPaMk2Full-0005.jpg" id="image_pfx_nyn_bcb"
+        scalefit="yes">
+        <alt>Omnidrive Rad</alt>
+      </image>
+    </fig>
+    <section id="section_ccx_rp5_bcb">
+      <p>Befestigung der Räder an der Motorwelle und Kraftübertragung</p>
+      <p>Dieses kleine Teil hier nennt sich <tm tmtype="tm">TrantorqueM</tm> ,wird von der Firma
+        Fenner Drives hergestellt und wird das Rad mit der Motorwelle verbinden. Perfekt geeignet
+        für unser Baby.</p>
+      <fig id="fig_rl4_1zn_bcb">
+        <title>TrantorqueM</title>
+        <image href="../../Media/Bitmaps/Originals/TrantorqueM.PNG" id="image_sl4_1zn_bcb"
+          scalefit="yes">
+          <alt>TrantorqueM</alt>
+        </image>
+      </fig>
+    </section>
+    <p><b>Antriebssystem</b><lines>Zur Drehzahlsteuerung wollen wir diese kleinen Biester verwenden</lines></p>
+    <fig id="fig_f52_mzn_bcb">
+      <title>MD-22 Motortreiber</title>
+      <image href="../../Media/Bitmaps/Originals/MD-22%20Motordriver.PNG" id="image_g52_mzn_bcb"
+        scalefit="yes">
+        <alt>MD-22 Motortreiber</alt>
+      </image>
+    </fig>
+    <p>MD-22 nennen sich die schicken Teile und werden wahlweise über digitale- und analog Signale
+      oder über den I2C-Bus angesteuert. Je ein Motortreiberboard wird zwei Motoren ansteuern. Die
+      Spannung für die Motoren wird maximal 12V betragen.</p>
+    <p xml:lang="de-DE">Umgebungserfassung mit dem <tm tmtype="-dita-use-conref-target"
+        conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-rplidar_a2"/></p>
+    <p>Zur Erfassung der Umgebung lassen wir einen <tm tmtype="-dita-use-conref-target"
+        conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-rplidar_a2"/> für unser
+      Zwecke einspannen. Der kleine Laserscanner hat einen Erfassungswinkel von vollen 360° und wird
+      an eine USB-Schnittstelle angeschlossen. Den Treiber programmieren wir selbst auf der Basis
+      der Dokumentation von Slamtec und deren SDK, dass leider nur in C++ erhältlich ist.</p>
+    <fig id="fig_yvh_r14_bcb">
+      <title>RPLIDAR A2</title>
+      <image href="../../Media/Bitmaps/Hardware/RPLIDAR%20A2_001.jpg" id="image_zvh_r14_bcb"
+        scalefit="yes">
+        <alt>RPLIDAR A2</alt>
+      </image>
+    </fig>
+  </body>
+</topic>
