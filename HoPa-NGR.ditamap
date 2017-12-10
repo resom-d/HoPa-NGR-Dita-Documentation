@@ -16,11 +16,12 @@
     <chapter navtitle="Software" xml:lang="de-DE">
         <topicref href="Topics/Software/Betriebssystem%20und%20Konfiguration.dita" xml:lang="de-DE"
             navtitle="Betriebssystem und Konfiguration"/>
-        <topicref href="Topics/Software/programmiersprache.dita">
-            <topicref href="Topics/Software/c_sharp.dita"/>
-        </topicref>
+        <topicref href="Topics/Software/c_sharp.dita"/>
         <topicref href="Topics/Software/Testanwendung.dita"
-            navtitle="Anwendung mit UI zu Einrichtungszwecken"/>
+            navtitle="Anwendung mit UI zu Einrichtungszwecken" xml:lang="de-DE">
+            <topicref href="Topics/Software/Aufgaben%20Tasksystem.dita"/>
+        </topicref>
+        <topicref href="Topics/Software/antriebssystem.dita" xml:lang="de-DE"/>
         <topicref href="Topics/Software/rplidar_a2.dita" xml:lang="de-DE" navtitle="RPLIDAR A2"/>
     </chapter>
     <chapter navtitle="Überlegungen" processing-role="normal" xml:lang="de-DE">

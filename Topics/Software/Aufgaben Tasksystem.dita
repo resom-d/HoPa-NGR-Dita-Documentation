@@ -4,20 +4,25 @@
     <title>Aufgaben</title>
     <shortdesc>Aufgaben zum Tasksystem</shortdesc>
     <prolog>
-        <author conref="../../Reuse/Zehnfinger.xml#ReusableComponent_wbb_bbn_bcb/author_ybb_bbn_bcb"
-        />
+        <author conref="../../Reuse/Autoren.xml#ReusableComponent_ngs_jr5_bcb/author-zf"/>
     </prolog>
-    <taskbody>
+    <taskbody xml:lang="de-DE">
         <context/>
         <steps>
             <step>
                 <cmd>Taskaufrufzeiten ermitteln</cmd>
+                <info>Prüfen wie sich die Aufrufzeiten verhalten wenn die Tasks verhalten, wenn sie
+                    aus einer UWP-UI Umgebung gestartet werden.</info>
             </step>
             <step>
                 <cmd>TPL mal anschauen</cmd>
+                <info>Die Task Parallel Library ist anscheinend die von Microsoft bevorzugte
+                    Technologie, wenn es um Parallelität geht.</info>
+                <info>Prüfen wie sich das mit Semaphoren (oder vergleichbares) verhält.</info>
             </step>
             <step>
                 <cmd>Mecanum Drive Dokumentation suchen</cmd>
+                <info>Wo gibt’s Berechnungsgrundlagen für den MecanumDrive?</info>
             </step>
         </steps>
     </taskbody>
