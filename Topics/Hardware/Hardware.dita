@@ -19,9 +19,8 @@
     <ul id="ul_x2w_vgl_bcb">
       <li>Chassis mit Befestigungsmöglichkeit für 4 Motoren</li>
       <li>4x Gleichstrommotoren mit Getriebe, 12V, 10000RPM, I=0.17</li>
-      <li><xref href="Raspberry%20PI%203.dita#topic_npm_rkl_bcb"><tm
-            tmtype="-dita-use-conref-target"
-            conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-raspi"/></xref></li>
+      <li><tm tmtype="-dita-use-conref-target"
+          conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-raspi"/></li>
       <li><xref
           href="../Software/Betriebssystem%20und%20Konfiguration.dita#topic_fs5_vpn_bcb/image_ryc_z5s_bcb"
           >Windows 10 IOT</xref></li>
@@ -36,83 +35,4 @@
       mit integrierten Encodern ausgestattet sind. (Muss mal schauen wieviele Impulse die pro
       Umdrehung liefern) </p>
   </body>
-
-  <topic id="topic_hnw_ndn_dcb">
-    <title>Das Chassis</title>
-    <body>
-      <p>So sieht das Chassis mit montierten Motoren aus</p>
-      <fig id="fig_jnw_ndn_dcb">
-        <title>MecanumDrive Rad</title>
-        <image href="../../Media/Bitmaps/Hardware/HoPaMk2Full-0003.jpg" scalefit="yes"
-          id="image_knw_ndn_dcb"/>
-      </fig>
-      <p>Bei den Rädern fehlen uns noch ein paar Kleinigkeiten um sie an den Motoren befestigen zu
-        können. So sehen die Räder für den MecanumDruive Räder aus aus</p>
-      <fig id="fig_lnw_ndn_dcb">
-        <title>MecanumDrive Rad</title>
-        <image href="../../Media/Bitmaps/Hardware/HoPaMk2Full-0005.jpg" scalefit="yes"
-          id="image_mnw_ndn_dcb">
-          <alt>MecanumDrive Rad</alt>
-        </image>
-      </fig>
-    </body>
-  </topic>
-  
-  <topic id="topic_b5y_4bn_dcb">
-    <title>Mechanische Befestigung</title>
-    <body>
-      <section id="section_ccx_rp5_bcb">
-        <p>Befestigung der Räder an der Motorwelle und Kraftübertragung</p>
-        <p>Dieses kleine Teil hier nennt sich <tm tmtype="tm">TrantorqueM</tm> ,wird von der Firma
-          Fenner Drives hergestellt und wird das Rad mit der Motorwelle verbinden. Perfekt geeignet
-          für unser Baby.</p>
-        <fig id="fig_rl4_1zn_bcb">
-          <title>TrantorqueM</title>
-          <image href="../../Media/Bitmaps/Originals/TrantorqueM.PNG" id="image_sl4_1zn_bcb"
-            scalefit="yes">
-            <alt>TrantorqueM</alt>
-          </image>
-        </fig>
-      </section>
-    </body>
-  </topic>
- 
-
-  <topic id="topic_gk5_5bn_dcb">
-    <title>Drehzahlregelung</title>
-    <body>
-      <p>
-        <lines>Zur Drehzahlregelung wollen wir diese kleinen Biester verwenden</lines>
-      </p>
-      <fig id="fig_f52_mzn_bcb">
-        <title>MD-22 Motortreiber</title>
-        <image href="../../Media/Bitmaps/Originals/MD-22%20Motordriver.PNG" id="image_g52_mzn_bcb"
-          scalefit="yes">
-          <alt>MD-22 Motortreiber</alt>
-        </image>
-      </fig>
-      <p>MD-22 nennen sich die schicken Teile und werden wahlweise über digitale- und analog Signale
-        oder über den I2C-Bus angesteuert. Je ein Motortreiberboard wird zwei Motoren ansteuern. Die
-        Spannung für die Motoren wird maximal 12V betragen.</p>
-    </body>
-    
-    <topic id="topic_kxk_zbn_dcb">
-      <title>Umgebungserfassung</title>
-      <body>
-        <p xml:lang="de-DE">Umgebungserfassung mit dem <tm tmtype="-dita-use-conref-target"
-            conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-rplidar_a2"/></p>
-        <p>Zur Erfassung der Umgebung lassen wir einen <tm tmtype="-dita-use-conref-target"
-            conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-rplidar_a2"/> für
-          unser Zwecke einspannen. Der kleine Laserscanner hat einen Erfassungswinkel von vollen
-          360° und wird an eine USB-Schnittstelle angeschlossen. Den Treiber programmieren wir
-          selbst auf der Basis der Dokumentation von Slamtec und deren SDK, dass leider nur in C++
-          erhältlich ist.</p>
-        <fig id="fig_bjr_hcn_dcb">
-          <image href="../../Media/Bitmaps/Originals/rplidar-a2-1.png" id="image_hwg_jcn_dcb"
-            scalefit="yes"/>
-        </fig>
-        <p/>
-      </body>
-    </topic>
-  </topic>
 </topic>

@@ -2,28 +2,31 @@
 <!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
 <bookmap xml:lang="de-DE">
     <booktitle>
-        <mainbooktitle>HoPa - NGR</mainbooktitle>
+        <mainbooktitle>HoPa - Next Generation Robot</mainbooktitle>
     </booktitle>
     <chapter navtitle="Willkommen" xml:lang="de-DE">
         <topicref href="Topics/Willkommen/Willkommen.dita" xml:lang="de-DE"/>
     </chapter>
     <chapter href="Topics/Hardware/Hardware.dita" navtitle="Hardware">
+        <topicref href="Topics/Hardware/chassis.dita"/>
+        <topicref href="Topics/Hardware/Antrieb.dita"/>
         <topicref href="Topics/Hardware/Raspberry%20PI%203.dita"/>
         <topicref href="Topics/Hardware/rplidar_a2.dita"/>
     </chapter>
     <chapter navtitle="Software" xml:lang="de-DE">
-        <topicref href="Topics/Software/Betriebssystem%20und%20Konfiguration.dita" xml:lang="de-DE"/>
-        <topicref href="Topics/Software/Testanwendung.dita"/>
+        <topicref href="Topics/Software/Betriebssystem%20und%20Konfiguration.dita" xml:lang="de-DE"
+            navtitle="Betriebssystem und Konfiguration"/>
         <topicref href="Topics/Software/programmiersprache.dita">
             <topicref href="Topics/Software/c_sharp.dita"/>
         </topicref>
-        <topicref href="Topics/Software/struktur.dita">
-            <topicref href="Topics/Software/datenstruktur.dita"/>
-        </topicref>
-        <topicref href="Topics/Software/rplidar_a2.dita" xml:lang="de-DE"/>
+        <topicref href="Topics/Software/Testanwendung.dita"
+            navtitle="Anwendung mit UI zu Einrichtungszwecken"/>
+        <topicref href="Topics/Software/rplidar_a2.dita" xml:lang="de-DE" navtitle="RPLIDAR A2"/>
     </chapter>
     <chapter navtitle="Überlegungen" processing-role="normal" xml:lang="de-DE">
-        <topicref href="Topics/Gedanken/Elektrobasteleien.dita" xml:lang="de-DE"/>
-        <topicref href="Topics/Gedanken/Elektrobasteleien.dita"/>
+        <topicref href="Topics/Gedanken/Elektrobasteleien.dita" xml:lang="de-DE"
+            navtitle="Elektrobasteleien"/>
+        <topicref href="Topics/Gedanken/Datenerfassung_und_Weltbild.dita"
+            navtitle="Datenerfassung und Weltbild"/>
     </chapter>
 </bookmap>

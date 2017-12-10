@@ -3,7 +3,7 @@
 <topic id="topic_ywm_ydl_dcb">
   <title>Antrieb</title>
   <prolog>
-    <author conref="../../Reuse/Autoren.xml#ReusableComponent_wbb_bbn_bcb/author_ybb_bbn_bcb"/>
+    <author conref="../../Reuse/Autoren.xml#ReusableComponent_ngs_jr5_bcb/author-zf"/>
   </prolog>
   <body>
     <p>Der Antrieb ist die Grundlage jedweder Anwendung mobiler Roboter. Paul hat die Räder, die
@@ -26,4 +26,45 @@
       <linktext>Mecanum Drive in der englischen Wikipedia</linktext>
     </link>
   </related-links>
+  <topic id="topic_b5y_4bn_dcb">
+    <title>Mechanische Befestigung</title>
+    <body>
+      <section id="section_ccx_rp5_bcb">
+        <p>Befestigung der Räder an der Motorwelle und Kraftübertragung</p>
+        <p>Dieses kleine Teil hier nennt sich <tm tmtype="tm">TrantorqueM</tm> ,wird von der Firma
+          Fenner Drives hergestellt und wird das Rad mit der Motorwelle verbinden. Perfekt geeignet
+          für unser Baby.</p>
+        <fig id="fig_rl4_1zn_bcb">
+          <title>TrantorqueM</title>
+          <image href="../../Media/Bitmaps/Originals/TrantorqueM.PNG" id="image_sl4_1zn_bcb"
+            scalefit="yes">
+            <alt>TrantorqueM</alt>
+          </image>
+        </fig>
+      </section>
+    </body>
+    <related-links>
+      <link href="http://www.fennerdrives.com" format="html" scope="external">
+        <linktext xml:lang="de-DE">Fenner Drives</linktext>
+      </link>
+    </related-links>
+  </topic>
+  <topic id="topic_gk5_5bn_dcb">
+    <title>Drehzahlregelung</title>
+    <body>
+      <p>
+        <lines>Zur Drehzahlregelung wollen wir diese kleinen Biester verwenden</lines>
+      </p>
+      <fig id="fig_f52_mzn_bcb">
+        <title>MD-22 Motortreiber</title>
+        <image href="../../Media/Bitmaps/Originals/MD-22%20Motordriver.PNG" id="image_g52_mzn_bcb"
+          scalefit="yes">
+          <alt>MD-22 Motortreiber</alt>
+        </image>
+      </fig>
+      <p>MD-22 nennen sich die schicken Teile und werden wahlweise über digitale- und analog Signale
+        oder über den I2C-Bus angesteuert. Je ein Motortreiberboard wird zwei Motoren ansteuern. Die
+        Spannung für die Motoren wird maximal 12V betragen.</p>
+    </body>
+  </topic>
 </topic>

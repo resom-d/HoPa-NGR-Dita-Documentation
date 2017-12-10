@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_xkc_3zr_dcb">
+  <title>Chassis</title>
+  <body>
+    <p>Das Chassis haben wir uns bei ??? bestellt, für den Deckel brauchen wir noch was schickes
+      damit das Rundumauge genau positioniert ist und das Ganze eine ansprechendes Design hat.</p>
+    <p>Bei den Rädern fehlen uns noch ein paar Kleinigkeiten um sie an den Motoren befestigen zu
+      können. So sehen die Räder für den MecanumDrive aus</p>
+    <fig id="fig_sng_4zr_dcb">
+      <title>MecanumDrive Rad</title>
+      <image href="../../Media/Bitmaps/Hardware/HoPaMk2Full-0005.jpg" scalefit="yes"
+        id="image_tng_4zr_dcb">
+        <alt>MecanumDrive Rad</alt>
+      </image>
+    </fig>
+  </body>
+</topic>

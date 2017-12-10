@@ -14,6 +14,14 @@
         <alt>RPLIDAR A2</alt>
       </image>
     </fig>
-    <p/>
+        <p xml:lang="de-DE">Zur Erfassung der Umgebung verwenden wir einen <tm
+        tmtype="-dita-use-conref-target"
+        conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-rplidar_a2"/>. Der
+      kleine Laserscanner hat einen Erfassungswinkel von vollen 360° und wird an eine
+      USB-Schnittstelle angeschlossen. Den Treiber programmieren wir selbst auf der Basis der
+      Dokumentation von Slamtec und deren SDK, dass leider nur in C++ erhältlich ist.</p>
   </body>
+  <related-links>
+    <link href="../Software/rplidar_a2.dita#topic_as2_mpn_bcb"/>
+  </related-links>
 </topic>
