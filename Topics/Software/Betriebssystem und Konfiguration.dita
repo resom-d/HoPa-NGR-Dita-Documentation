@@ -26,8 +26,8 @@
     <p>Die Einrichtung des Pi verläuft problemfrei und schon nach wenigen Minuten ist das
       Betriebssystem installiert. Alles was man dazu benötigt ist ein <tm
         tmtype="-dita-use-conref-target"
-        conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-raspi"/>, eine
-      mindestens 8Gbyte große, möglichst flinke SD-Karte und das <xref
+        conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-raspi"/> Modelle 2 oder
+      3, eine mindestens 8Gbyte große, möglichst flinke SD-Karte und das <xref
         href="https://developer.microsoft.com/de-de/windows/iot/Downloads" format="html"
         scope="external">IoT-Dashboard</xref>. Das Dashboard wird regelmäßig upgedated, lädt immer
       die aktuellste Version von <tm tmtype="-dita-use-conref-target"
@@ -39,9 +39,9 @@
         format="html" scope="external">hier</xref> herunterladen. Wir arbeiten ausschließlich mit
       C#, auch wenn das im Bezug auf die Arbeit mit der Hardware sicher nicht die schnellste
       Alternative darstellt. Schaut man sich die Leistungstabelle bei den Lightining-Providern an,
-      ist C++ klar im Vorteil. Trotzdem, Einfachheit der Sprache überzeugt, die Integration in die
-      .Net Landschaft ist schlicht grandios und die Managed Runtime funktionieren einfach fabelhaft.
-      Zudem lässt <tm tmtype="-dita-use-conref-target"
+      ist C++ klar im Vorteil. Trotzdem, die Einfachheit der Sprache überzeugt, die Integration in
+      die .Net Landschaft ist schlicht grandios und die Managed Runtime funktionieren einfach
+      fabelhaft. Zudem lässt <tm tmtype="-dita-use-conref-target"
         conref="../../Reuse/Marken.xml#ReusableComponent_ngs_jr5_bcb/brands-vscom"/> beim Bearbeiten
       der Projekte keine Wünsche unberücksichtigt, man fragt sich manchmal was die Entwickler da
       noch alles reinpacken wollen. Man darf gespannt sein.</p>

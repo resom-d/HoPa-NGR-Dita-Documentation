@@ -19,6 +19,10 @@
                                 <li><xref
                                                 href="../../Media/PDF/rplidar/LR002_SLAMTEC_rplidar_sdk_v1.0_en.pdf"
                                                 format="pdf">Protokoll</xref></li>
+        <li><xref href="../../Media/Binaries/Originals/slamtec/rplidar_sdk_v1.5.7.zip" format="zip"
+            >SDK als Zip-Archiv</xref></li>
+        <li><xref href="../../Media/Binaries/Originals/slamtec/rplidar_dfu_upgrader_1.20rtm.zip"
+            format="zip">rplidar_dfu_upgrader_1.20rtm</xref></li>
                         </ul></p>
   </body>
 </topic>
